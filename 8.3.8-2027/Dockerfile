@@ -23,7 +23,7 @@ RUN apt-get install -y locales && rm -rf /var/lib/apt/lists/* \
 
 ENV LANG ru_RU.utf8
 
-ENV SERVER_1C_VERSION 8.3.8-2027
+ENV SERVER_1C_VERSION 8.3.12-1531
 ENV SERVER_1C_ARCH amd64
 ENV DIST_SERVER_1C ./dist/
 
